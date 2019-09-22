@@ -15,7 +15,8 @@ function getColor(mag){
   mag > 1 ? "#ffff66":
            "#90ee90";
 }
-  
+
+
 d3.json(Url, function(data) {
     // Once we get a response, send the data.features object to the createFeatures function
     createFeatures(data.features);
